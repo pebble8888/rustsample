@@ -1,0 +1,14 @@
+[[package]]
+name = "crossbeam"
+version = "0.2.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "sample1"
+version = "0.1.0"
+dependencies = [
+ "crossbeam 0.2.12 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum crossbeam 0.2.12 (registry+https://github.com/rust-lang/crates.io-index)" = "bd66663db5a988098a89599d4857919b3acf7f61402e61365acfd3919857b9be"
